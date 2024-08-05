@@ -1,4 +1,3 @@
-
 CREATE TABLE program
 (
     program_id VARCHAR(10) PRIMARY KEY,
@@ -9,8 +8,7 @@ CREATE TABLE module
 (
     id      VARCHAR(10) PRIMARY KEY,
     name    VARCHAR(100) NOT NULL,
-    credits INT          NOT NULL
-CREATE TABLE student
+    credits INT          NOT NULL CREATE TABLE student
 (
     id   VARCHAR(10) PRIMARY KEY,
     name VARCHAR(100) NOT NULL
