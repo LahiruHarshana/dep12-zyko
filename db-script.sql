@@ -24,3 +24,9 @@ CREATE TABLE batch
     programm_id VARCHAR(10) NOT NULL
 );
 
+CREATE TABLE enrolment(
+student_id VARCHAR(10) NOT NULL,
+batch_number VARCHAR(10) NOT NULL,
+CONSTRAINT PK PRIMARY KEY (student_id,batch_number),
+registration_date DATE NOT NULL
+);
