@@ -9,3 +9,8 @@ CREATE TABLE exam(
     module_id VARCHAR(10) NOT NULL ,
     CONSTRAINT fk_module_id FOREIGN KEY (module_id) REFERENCES module(id)
 );
+
+CREATE TABLE batch(
+	number VARCHAR(100) PRIMARY KEY,
+	programm_id VARCHAR(10) NOT NULL
+	);
